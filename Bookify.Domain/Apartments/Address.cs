@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Bookify.Domain.Apartments;
+public sealed record Address(
+    string Country,
+    string State,
+    string ZipCode,
+    string City,
+    string Street
+);
